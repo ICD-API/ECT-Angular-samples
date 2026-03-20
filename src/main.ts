@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
-import 'zone.js';
 
 // import the angular component that uses the ECT
 import { ECTAngularComponent } from './ect-angular/ect-angular.component';
